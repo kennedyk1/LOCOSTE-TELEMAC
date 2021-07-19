@@ -11,6 +11,14 @@
 # TESTED BY PABLO SILVA (FURG - Federal University of Rio Grande)
 ###################################################
 
+user=$(whoami)
+
+if [ $user = "root" ]
+then
+clear
+echo "Please, do not execute the script as root!"
+else
+
 sudo apt-get update
 sudo apt-get -y install gdebi subversion python gfortran libopenmpi-dev openmpi-bin python3-pip cmake python-dev libmed* python3-med flex bison git
 sudo pip3 install numpy scipy matplotlib python-dev-tools
@@ -121,3 +129,5 @@ echo "" >> ~/.bashrc
 
 ### CARREGA OS SCRIPTS
 source ~/.bashrc
+
+fi
