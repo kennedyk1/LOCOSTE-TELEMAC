@@ -1,16 +1,17 @@
 ###################################################
-## ARQUIVO DE INSTALAÇÂO DE DEPENDENCIAS TELEMAC ##
+## Script File to Install TELEMAC dependences    ##
 ###################################################
 
 ###################################################
-#PARA USAR, BASTA DIGITAR NO TERMINAL:  source install_telemac
+# To use, just type on terminal:  source install_telemac
 ###################################################
 
 ###################################################
-# CRIADO POR KENNEDY MOTA 18/07/2021
+# CREATED BY ENG. KENNEDY MOTA 19/07/2021
+# TESTED BY PABLO SILVA (FURG - Federal University of Rio Grande)
 ###################################################
 
-
+sudo apt-get update
 sudo apt-get -y install gdebi subversion python gfortran libopenmpi-dev openmpi-bin python3-pip cmake python-dev libmed* python3-med flex bison git
 sudo pip3 install numpy scipy matplotlib python-dev-tools
 
