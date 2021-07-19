@@ -1,0 +1,1 @@
+mpif90 -fPIC -fconvert=big-endian -frecord-marker=4 -lpthread -lm -o <exename> <objs> [root]/builds/gfortranHPC/lib/utils/diffsel/diffsel.a [root]/builds/gfortranHPC/lib/utils/special/diffsel.a [libs_all]

@@ -1,0 +1,1 @@
+mpif90 -fPIC -fconvert=big-endian -frecord-marker=4 -lpthread -lm -o <exename> <objs> [root]/builds/gfortranHPC/lib/utils/partel/partel_para.a [root]/builds/gfortranHPC/lib/utils/bief/partel_para.a [root]/builds/gfortranHPC/lib/utils/parallel/partel_para.a [root]/builds/gfortranHPC/lib/utils/special/partel_para.a [libs_all]

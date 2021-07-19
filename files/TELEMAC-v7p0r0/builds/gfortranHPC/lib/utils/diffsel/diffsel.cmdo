@@ -1,0 +1,1 @@
+mpif90 -c -cpp -fPIC -O2 -fconvert=big-endian -frecord-marker=4 -DHAVE_MPI -DHAVE_VTK  -I [root]/builds/gfortranHPC/lib/utils/special  -I [root]/builds/gfortranHPC/lib/utils/diffsel   <f95name>
