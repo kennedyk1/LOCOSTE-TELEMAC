@@ -90,6 +90,9 @@ mkdir -p ~/TELEMAC-v7p0r0
 sudo ln -s /usr/TELEMAC-v7p0r0/scripts/python27/* ~/TELEMAC-v7p0r0
 cd ~/TELEMAC-v7p0r0
 
+
+sudo rm -r ~/LOCOSTE-TELEMAC
+
 ### ADD OS SCRIPTS PYTHON NO ARQUIVO .BASHRC PARA FACILITAR CHAMADA
 
 echo "" >> ~/.bashrc
@@ -129,5 +132,13 @@ echo "" >> ~/.bashrc
 
 ### CARREGA OS SCRIPTS
 source ~/.bashrc
+
+echo ""
+echo ""
+echo "execute the bellow command to test TELEMAC installation:"
+echo ""
+echo "telemac2d.py /usr/TELEMAC-v7p0r0/examples/telemac2d/gouttedo/t2d_gouttedo.cas --ncsize=4"
+echo ""
+echo ""
 
 fi
