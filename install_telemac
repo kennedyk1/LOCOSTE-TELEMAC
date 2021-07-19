@@ -50,7 +50,7 @@ sudo make install
 ##INSTALAR O SCOTCH
 cd ~/LOCOSTE-TELEMAC/scotch/src
 sudo mkdir -p /usr/scotch
-ln -s Make.inc/Makefile.inc.x86-64_pc_linux2 Makefile.inc
+sudo ln -s Make.inc/Makefile.inc.x86-64_pc_linux2 Makefile.inc
 sudo make libscotch
 sudo make scotch
 sudo make prefix=/usr/scotch install
@@ -78,7 +78,7 @@ sudo chmod -R 777 /usr/scotch
 /usr/TELEMAC-v7p0r0/scripts/python27/config.py
 /usr/TELEMAC-v7p0r0/scripts/python27/compileTELEMAC.py
 mkdir -p ~/TELEMAC-v7p0r0
-ln -s /usr/TELEMAC-v7p0r0/scripts/python27/* ~/TELEMAC-v7p0r0
+sudo ln -s /usr/TELEMAC-v7p0r0/scripts/python27/* ~/TELEMAC-v7p0r0
 cd ~/TELEMAC-v7p0r0
 
 ### ADD OS SCRIPTS PYTHON NO ARQUIVO .BASHRC PARA FACILITAR CHAMADA
